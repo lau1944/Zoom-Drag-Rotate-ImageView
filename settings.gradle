@@ -1,0 +1,2 @@
+include ':app', ':rotateimageview'
+rootProject.name='RotateImageview'
