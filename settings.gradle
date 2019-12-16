@@ -1,2 +1,2 @@
-include ':app', ':rotateimageview'
+include ':sample', ':rotateimageview'
 rootProject.name='RotateImageview'
