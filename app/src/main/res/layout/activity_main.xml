@@ -4,15 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/playground">
 
     <com.easystudio.rotateimageview.RotateZoomImageView
         android:id="@+id/rotate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:src="@drawable/money"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         >
 
     </com.easystudio.rotateimageview.RotateZoomImageView>

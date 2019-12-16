@@ -20,20 +20,6 @@ public class RotateZoomImageView extends AppCompatImageView implements View.OnTo
     float scalediff;
     public RotateZoomImageView(Context context) {
         super(context);
-        init(context);
-    }
-
-    public RotateZoomImageView(Context context, AttributeSet attrs) {
-        super(context, attrs);
-        init(context);
-    }
-
-    public RotateZoomImageView(Context context, AttributeSet attrs, int defStyle) {
-        super(context, attrs, defStyle);
-        init(context);
-    }
-
-    private void init(Context context){
 
     }
 
