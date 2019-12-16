@@ -1,22 +1,31 @@
 # Zoom-Drag-Rotate-ImageView
 Zoom, Drag &amp; Rotate ImageView （可拉伸，托拉和旋转的imageview)
 
-## What Is This
+## What Is This (这是什么东西？）
 
 It is called **RotateImageview** extends from ImageView,
 
 it has multiple **gestures**
 ,you can get the same ImageView features as well .  
 
-## Demo here 
+
+这是一个多功能ImageView，
+
+能够实现多样的手势控制
+
+## Demo here  
 <p align="center">
   <img  src="https://github.com/lau1944/Zoom-Drag-Rotate-ImageView/blob/branch/demo.gif" />
 </p>
 
-## How To Use 
+## How To Use  （如何使用）
 - **Step 1**. Add the JitPack repository to your build file
 
      Add it in your root build.gradle at the end of repositories:
+     
+     (将jitpack加入到build.gradle，如下所示）
+     
+     
 ```java
 allprojects {
 		repositories {
@@ -29,6 +38,8 @@ allprojects {
 
 - **Step 2**. Add the dependency
 
+     （加入SDK套件)
+
 ```java
 dependencies {
 	        implementation 'com.github.lau1944:Zoom-Drag-Rotate-ImageView:currentversion'
@@ -37,9 +48,9 @@ dependencies {
 
 <img src="https://github.com/lau1944/Zoom-Drag-Rotate-ImageView/blob/branch/jitpack.svg">
 
-- **Step 3**. Add Image
+- **Step 3**. Add Image (添加图片）
     
-  **You can add it on XML file**
+  **You can add it on XML file**  （在xml上直接加入）
     
 ```xml
    <com.easystudio.rotateimageview.RotateZoomImageView
@@ -48,7 +59,7 @@ dependencies {
         android:layout_height="150dp"
         android:src="@drawable/money"/>
 ```
- **Or add image programmatically** 
+ **Or add image programmatically**  （或者用java上加入）
  
 ```java
             RotateZoomImageView iv;
@@ -61,7 +72,7 @@ dependencies {
             playground.addView(iv);
  ```
  
-- **Final Step**. Add OnTouch Method
+- **Final Step**. Add OnTouch Method  （再加入如下监听事件）
  
 ```java
       iv.setOnTouchListener(new View.OnTouchListener() {
